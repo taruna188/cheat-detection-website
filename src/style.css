@@ -17,6 +17,11 @@ body {
     border-radius: 16px;
 }
 
+#detection-log {
+    max-height: 800px;
+    overflow: auto;
+}
+
 #detection-log > .none {
     font-style: italic;
     color: gray;
