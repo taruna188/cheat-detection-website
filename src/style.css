@@ -1,0 +1,27 @@
+
+body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: medium;
+
+    display: grid;
+    height: 90vh;
+    grid-template-columns: minmax(4cm, 24cm);
+    justify-content: center;
+    align-content: center;
+}
+
+.content {
+    padding: 20px;
+
+    border: 1px solid grey;
+    border-radius: 16px;
+}
+
+#detection-log > .none {
+    font-style: italic;
+    color: gray;
+
+    &:not(:only-child) {
+        display: none;
+    }
+}
